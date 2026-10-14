@@ -8,16 +8,15 @@
 * **Track Modules Covered:**
   * **Module 5:** *Introduction to Statistics in Python*
   * **Module 6:** *Introduction to Data Visualization with Seaborn*
-* **Central Announcement Repo:** [https://github.com/se3509-26/assignments](https://github.com/se3509-26/assignments)
-* **Submission Platform:** **DYS (Ders Yönetim Sistemi)**  
-  *(Ödev teslimleri doğrudan Üniversite DYS sistemi üzerinden yüklenecektir.)*
-* **Submission Deliverable:** Microsoft Word document (`.docx`) containing your accessible OneDrive sharing link at the top.
-* **File Naming Convention:** `studentNo_surname_name_SE3509_PreLab03.docx`
+* **Central Assignment Repo:** [https://github.com/se3509-26/assignments](https://github.com/se3509-26/assignments)
+* **Student Target Repo:** Your private student repository (`Lab_se-XXXXXXXXX` / `Labse-XXXXXXXXX`)
 * **Submission Deadline:** **Tuesday, October 13, 2026 at 23:59**
+* **Submission Deliverable:** Microsoft Word document (`.docx`) placed under `week03/` or `prelab03/` in your private lab repository + OneDrive sharing link.
+* **File Naming Convention:** `studentNo_surname_name_SE3509_PreLab03.docx`
 
-> [!IMPORTANT]
-> **Submission Policy:**  
-> This assignment is announced on GitHub for review and instructions. You must submit your completed Microsoft Word report (`.docx`) directly to the **DYS (Ders Yönetim Sistemi)** submission portal before the deadline. Ensure your OneDrive view/download link is pasted at the top of your document.
+> [!CAUTION]
+> **Mandatory Completion Policy:**  
+> Submitting this PreLab report before the deadline (**October 13, 2026, 23:59**) is **mandatory**. Students who fail to complete and commit their report to their private repository on time will receive **0 points (no lab grade)** for this lab session.
 
 ---
 
@@ -25,7 +24,15 @@
 
 1. **Review:** Read the conceptual evaluation question below in the central `assignments` repository.
 2. **Prepare:** Answer the questions in your own words using Microsoft Word based on the report template provided at the bottom of this document. Include relevant Python/pandas/seaborn code snippets where helpful.
-3. **Submit:** Upload your `.docx` file named `studentNo_surname_name_SE3509_PreLab03.docx` to the **DYS** portal before **October 13, 2026, 23:59**.
+3. **Commit & Push:** Save your `.docx` file as `studentNo_surname_name_SE3509_PreLab03.docx` inside the `week03/` folder in your private student repository (`Lab_se-XXXXXXXXX`), then commit and push to GitHub:
+   ```bash
+   cd Lab_se-XXXXXXXXX
+   mkdir -p week03
+   # Place your studentNo_surname_name_SE3509_PreLab03.docx file into week03/
+   git add week03/
+   git commit -m "week03: submit prelab 03 report"
+   git push origin main
+   ```
 
 ---
 
@@ -63,9 +70,9 @@
 
 ---
 
-## 📄 DYS Submission Template
+## 📄 Word (.docx) Submission Template
 
-Copy and paste the template below into your Microsoft Word document (`.docx`), write your answers, and upload it to **DYS (Ders Yönetim Sistemi)**:
+Copy and paste the template below into your Microsoft Word document:
 
 ```text
 ================================================================================
@@ -79,14 +86,15 @@ STUDENT INFORMATION:
 • Full Name: [Your Name and Surname]
 • Student ID: [Your Student ID]
 • GitHub Username: se-[Your Student ID]
+• Private Lab Repo: https://github.com/se3509-26/Lab_se-[Your Student ID]
 • Submission Date: [13/10/2026]
-• OneDrive View/Download Link: [Paste Your Accessible OneDrive Sharing Link Here]
+• OneDrive View/Download Link: [Insert Link - View & Download Only]
 
 --------------------------------------------------------------------------------
 IMPORTANT NOTICE:
-Submission Platform: DYS (Ders Yönetim Sistemi)
 Submission Deadline: October 13, 2026, 23:59.
-Format: Microsoft Word (.docx) with active OneDrive link.
+Failure to submit this PreLab report by the deadline results in 0 points 
+(no lab grade) for this lab session.
 --------------------------------------------------------------------------------
 
 SECTION 1: CONCEPTUAL EVALUATION QUESTIONS
